@@ -1,0 +1,62 @@
+@media screen and (max-width:626px) {
+    header {
+        width: 600px;
+    }
+
+    li {
+        width: 450px;
+    }
+
+
+}
+
+@media screen and (max-width:713px) {
+    header {
+        width: 100%;
+    }
+
+    .clear {
+        left: 68%;
+    }
+
+
+    li {
+        font-size: 20px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:438px) {
+    header {
+        width: 100%;
+    }
+
+    .clear {
+        left: 66%;
+    }
+
+    li {
+        font-size: 15px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:341px) {
+    header {
+        width: 100%;
+    }
+
+    input::placeholder {
+        font-size: 13px;
+    }
+
+    .clear {
+        left: 61%;
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 13px;
+        width: 250px;
+    }
+}

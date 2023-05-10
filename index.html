@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/input.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="conteudo">
+        <header>
+            <img class="logo" src="img/logo.png" draggable="false">
+        </header>
+
+        <input class="input" id="lista" type="text" placeholder="Digite algo na lista" autocomplete="off" required>
+
+        <div class="erro"></div>
+
+        <button class="button" id="button"></button>
+
+        <button onclick="limpar()" class="clear">X</button>
+
+
+
+        <div class="container-lista">
+
+            <ul id="lista-tarefa">
+
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
