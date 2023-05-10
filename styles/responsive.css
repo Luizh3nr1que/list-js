@@ -41,6 +41,17 @@
     }
 }
 
+@media screen and (max-width:512px) {
+    .clear {
+        left: 65%;
+    }
+
+    li {
+        font-size: 15px;
+        width: 350px;
+    }
+}
+
 @media screen and (max-width:341px) {
     header {
         width: 100%;
