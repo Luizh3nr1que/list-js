@@ -20,9 +20,9 @@ lista.addEventListener('keyup', handleKeyUp);
 function handleKeyUp(e) {
     if (e.key === "Enter") {
         if (lista.value === "") {
-            erro.innerHTML = 'Digite algo na lista para adicionar';
+            erro.style.display = 'block';
         } else {
-            erro.innerHTML = '';
+            erro.style.display = 'none';
             let novoItem = document.createElement("li");
             novoItem.innerHTML = lista.value;
 

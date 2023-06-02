@@ -6,25 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/input.css">
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Lista de Tarefas</title>
 </head>
 
 <body>
     <div class="conteudo">
-        <header>
-            <img class="logo" src="img/logo.png" draggable="false">
-        </header>
 
-        <input class="input" id="lista" type="text" placeholder="Digite algo na lista" autocomplete="off" required>
 
-        <div class="erro"></div>
+        <div class="header">
+            <input class="input" id="lista" type="text" placeholder="Digite algo na lista" autocomplete="off" required>
+            <button onclick="limpar()" class="clear">CLEAR</button>
+            <ion-icon class="icon" name="receipt-outline"></ion-icon>
+            <div class="erro">Digite algo na lista para adicionar</div>
+
+        </div>
+
+
 
         <button class="button" id="button"></button>
 
-        <button onclick="limpar()" class="clear">X</button>
 
 
 
