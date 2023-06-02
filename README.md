@@ -1,6 +1,6 @@
 # list-js
 
-<b>essa e uma lista onde você pode gita suas tarefas em um input apagalas e marcar como consluida ainda desenvolvendo algumas coisas como design da pagina e salvar o conteudo ainda não salva<b>
+<b>Lista de tarefas simples podendo marcar como conscluida e apagar , lista feitta em JS ela e um projeto antigo mais decidi refazer ela ainda falta salvar no local storange mas ja to criando <b>
 <br><br>
 
 <h1>Tecnologias utilizadas</h1>
